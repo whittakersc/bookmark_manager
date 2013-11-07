@@ -4,7 +4,7 @@ ENV["RACK_ENV"] = 'test' # because we need to know what databse to work with
 # because the server needs to know what environment it's running it: test or development.
 # The envorinment determines what database to use.
 
-require File.join(File.dirname(__FILE__), '..', 'server')
+require File.join(File.dirname(__FILE__), '..', './app/server') 
 
 require 'database_cleaner'
 require 'capybara/rspec'
