@@ -6,6 +6,9 @@ gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'sinatra'
 gem 'bcrypt-ruby'
+gem 'rack-flash3'
+gem 'sinatra-flash'
+gem 'sinatra-partial'
 
 group :developement, :test do
 	gem 'rspec'
@@ -13,4 +16,5 @@ group :developement, :test do
 	gem 'cucumber'
 	gem 'capybara'
 	gem 'launchy'
+	gem 'shotgun'
 end
